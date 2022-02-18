@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DB First</title>
+</head>
+<body>
+    <div>
+        <!-- Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario. -->
+        <h1>Struttura tabella database</h1>
+    </div>
+
+    <div>
+        <h3>DB Concessionario</h3>
+        
+        <table border="1" cellpadding="10">
+            <tbody>
+            <tr>
+                <td>id</td>
+                <td>INT</td>
+                <td>AUTO INCREMENT</td>
+                <td>NOT NULL</td>
+                <td>PRIMARY KEY</td>
+            </tr>
+            <tr>
+                <td>casa_automobilistica</td>
+                <td>VARCHAR(30)</td>
+                <td></td>
+                <td>NOT NULL</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>modello</td>
+                <td>VARCHAR(30)</td>
+                <td></td>
+                <td>NOT NULL</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>condizioni</td>
+                <td>VARCHAR(30)</td>
+                <td></td>
+                <td>NOT NULL</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>anno_immatricolazione</td>
+                <td>YEAR</td>
+                <td></td>
+                <td>NULL</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>numero_proprietari</td>
+                <td>TINYINT</td>
+                <td></td>
+                <td>NOT NULL</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>ultimo_proprietario</td>
+                <td>VARCHAR(50)</td>
+                <td></td>
+                <td>NULL</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>alimentazione</td>
+                <td>VARCHAR(30)</td>
+                <td></td>
+                <td>NOT NULL</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>cilindrata</td>
+                <td>VARCHAR(10)</td>
+                <td></td>
+                <td>NOT NULL</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>cambio</td>
+                <td>VARCHAR(20)</td>
+                <td></td>
+                <td>NOT NULL</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>chilometri_percorsi</td>
+                <td>INT</td>
+                <td></td>
+                <td>NOT NULL</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>categoria</td>
+                <td>VARCHAR(2)</td>
+                <td></td>
+                <td>NOT NULL</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>numero_posti</td>
+                <td>TINYINT</td>
+                <td></td>
+                <td>NOT NULL</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>numero_porte</td>
+                <td>TINYINT</td>
+                <td></td>
+                <td>NOT NULL</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>colore_carrozzeria</td>
+                <td>VARCHAR(25)</td>
+                <td></td>
+                <td>NOT NULL</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>prezzo</td>
+                <td>INT</td>
+                <td></td>
+                <td>NOT NULL</td>
+                <td></td>
+            </tr>       
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
